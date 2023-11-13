@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placering</title>
+  <link rel="stylesheet" href="test.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+  <script src="test.js" defer></script>
+</head>
+<body>
+  <div class="wrapper page">
+    <header>🦆</header>
+    <main id="classroom" class="section">
+      <div class="wrapper class">
+        <div class="teacher table">Fröken</div>
+        <div class="row">
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(1)'))">Hailey</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(2)'))">Sasha Y.</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(3)'))">Alex</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(4)'))">Naima</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(5)'))">Xiomara</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(6)'))">Adam</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(7)'))"></p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(2) > .table:nth-child(8)'))"></p></div>
+        </div>
+        <div class="row">
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(1)'))">Rayaan</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(2)'))">Nemr</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(3)'))">Isabella</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(4)'))">Sali</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(5)'))">Turky</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(6)'))">Tirhas</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(7)'))">Elisabeth</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(8)'))">Hind</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(9)'))">Sidra</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(10)'))">Sasha R.</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(11)'))"></p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true"  oninput="verify(document.querySelector('.row:nth-child(3) > .table:nth-child(12)'))"></p></div>
+        </div>
+        <div class="row">
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(1)'))">Said</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(2)'))">Aya</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(3)'))">Linn</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(4)'))">Harleen</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(5)'))">Lanya</p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(6)'))"></p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(7)'))"></p></div>
+          <div class="table"><p spellcheck="false" contenteditable="true" oninput="verify(document.querySelector('.row:nth-child(4) > .table:nth-child(8)'))"></p></div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="randomize" onclick="shuffle()">Blanda</button>
+        <!-- <button id="save" onclick="save_placement()"></button> -->
+      </div>
+    </main>
+    <aside id="students" class="section">
+      <ul class="student-list">
+      </ul>
+    </aside>
+    <!-- <aside id="placements" class="section">
+      <div class="current"></div>
+      <div class="history">
+        <div class="placement"><div class="tools"><button id="delete"></button><button id="set"></button></div></div>
+        <div class="placement"><div class="tools"><button id="delete"></button><button id="set"></button></div></div>
+        <div class="placement"><div class="tools"><button id="delete"></button><button id="set"></button></div></div>
+      </div>
+    </aside> -->
+  </div>
+</body>
+</html>
